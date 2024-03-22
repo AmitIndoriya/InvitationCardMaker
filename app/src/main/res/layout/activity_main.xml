@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/purple_200">
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="560dp"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:background="#fdfdfd"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/weddingcard1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.astoganit.invitationcardmaker.uicomponent.custom.CustomTextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Together\n with their families"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    custom:fancyText="true" />
+
+                <com.astoganit.invitationcardmaker.uicomponent.custom.CustomTextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Shree Ram"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    custom:fancyText="true" />
+
+                <com.astoganit.invitationcardmaker.uicomponent.custom.CustomTextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv2"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="and"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    custom:fancyText="true" />
+
+                <com.astoganit.invitationcardmaker.uicomponent.custom.CustomTextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv3"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Sita"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    custom:fancyText="true" />
+
+                <com.astoganit.invitationcardmaker.uicomponent.custom.CustomTextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv4"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Request the pleasure of your company\nat the ceremony of their wedding"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    custom:fancyText="true" />
+
+
+
+                <Button
+                    android:id="@+id/back_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Left"
+                    android:visibility="gone" />
+
+                <!--  <include
+                      android:id="@+id/lay1"
+                      layout="@layout/selected_rect_layout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/tv5" />-->
+                <!--   <com.astoganit.greetingandinvitation.CustomTextView
+                       android:id="@+id/ttt"
+                       android:text="@string/app_name"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />-->
+
+                <!--  <LinearLayout
+                      android:id="@+id/linear_layout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/ttt">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:padding="8dp"
+                          android:text="Sita"
+                          android:textAllCaps="true"
+                          android:textColor="@color/black"
+                          android:textSize="20sp"
+                          custom:fancyText="true" />
+
+                      <View
+                          android:layout_width="2dp"
+                          android:layout_height="25dp"
+                          android:background="@color/black" />
+
+                      <LinearLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:text="Sita"
+                              android:textAllCaps="true"
+                              android:textColor="@color/black"
+                              android:textSize="20sp"
+                              custom:fancyText="true" />
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:text="Sita"
+                              android:textAllCaps="true"
+                              android:textColor="@color/black"
+                              android:textSize="20sp"
+                              custom:fancyText="true" />
+                      </LinearLayout>
+
+                      <View
+                          android:layout_width="2dp"
+                          android:layout_height="25dp"
+                          android:background="@color/black" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:text="Sita"
+                          android:textAllCaps="true"
+                          android:textColor="@color/black"
+                          android:textSize="20sp"
+                          custom:fancyText="true" />
+                  </LinearLayout>-->
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</layout>
